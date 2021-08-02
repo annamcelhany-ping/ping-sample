@@ -1,7 +1,7 @@
 const authClient = new PingOneAuthClient({
   environmentId: 'f7c3fd8a-3da9-4c8f-a833-0b834eb232cf',
   clientId: '9043484c-5a3a-4f3e-8e15-382ca23b640e',
-  redirectUri: 'http://localhost',
+  redirectUri: 'https://localhost',
   scopes: ['openid','profile', 'email', 'address'],
   responseType: ['token', 'id_token'],
   pkce: false
